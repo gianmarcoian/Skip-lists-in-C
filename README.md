@@ -1,6 +1,7 @@
 # Skip List Implementation in C
 
-This repository contains an implementation of skip lists in C. Skip lists are a probabilistic data structure that provide an efficient alternative to balanced trees for many operations, particularly for search, insertion, and deletion.
+This repository contains an implementation of skip lists in C (skiList.c).
+Skip lists are a probabilistic data structure that provide an efficient alternative to balanced trees for many operations, particularly for search, insertion, and deletion.
 
 ## Skip Lists: Brief Overview
 
@@ -21,6 +22,11 @@ Skip lists are a probabilistic alternative to balanced trees, invented by Willia
 
 ## Implementation Details
 
-The implementation provided in `skiplist.c` includes functions for creating a skip list, searching for elements, inserting elements, and deleting elements. It is designed to be simple and efficient.
-
+The implementation provided in `skiplist.c` includes these functions:
+initSkipList
+containsSkipList
+removeSkipList
+addSkipList
+sizeSkipList
+printSkipList
 
